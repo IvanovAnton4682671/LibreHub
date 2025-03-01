@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Users] (
+    [userID] INT NOT NULL,
+    CONSTRAINT [XPKUser] PRIMARY KEY CLUSTERED ([userID] ASC)
+);
+
